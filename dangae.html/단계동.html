@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+		<meta name="naver-site-verification" content="34c98561d1cbdf38a977005044fd8852acd513cc"/>	
+	<title>원주 단계동 경남아너스빌</title>	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="css/parallax.css" rel="stylesheet">
+</head>
+<body>
+	<h1>문의전화 033-904-4266 </h1>
+	<div id="wrap">  
+		<div id="ms1" class="container bg-holder"data-width="1200" data-height="200" style='background-image:url("images/bg01.jpg")'>
+			<section class="content">	
+					
+				
+				
+				<h3>원주 단계 경남아너스빌</h3>
+				<p>행정과 교육 그리고 교통의 중심				
+					
+				</p>
+			</section>
+		</div>
+		<div id="ms2" class="container bg-holder"data-width="2000" data-height="200" style='background-image:url("images/bg02.jpg")'>
+			<section class="content">
+				<h3>오래된 구도심에 도시의 활력을</h3>
+				<p>	재개발과 원주민에 의한 공동주택사업						
+					
+				</p>
+			</section>
+		</div>
+		<div id="ms3" class="container bg-holder " data-width="1200" data-height="200"style='background-image:url("images/bg03.jpg")'>
+			<section class="content">
+				<h3>경남이 만들면 다릅니다</h3>
+				<p> 이제 원주가 아닌 강원도의 중심이 됩니다</p>
+                 <pre><h2> 
+					 
+					
+					
+					
+					
+		문의전화
+	        033-904-4266 </h2></pre>
+					
+				
+			</section>
+		</div>
+	</div>
+
+	<script src="js/jquery-2.2.4.min.js"></script>
+	<script src="js/jquery.parallax-scroll.min.js"></script>
+	<script>
+        $(function() {
+			$(window).resize(function(){
+                $('.container').width($(window).width()).height($(window).height());
+			})
+			setTimeout(function(){
+				$(window).resize()
+			}, 1000);
+
+		    $('.bg-holder').parallaxScroll({
+				friction:0.3
+			});
+			$('.icon img').hover(function() {
+				$(this).attr('src', $(this).attr('src').replace('.png', '_over.png'));				
+			}, function() {
+				$(this).attr('src', $(this).attr('src').replace('_over.png', '.png'));
+			});
+		});
+	</script>
+</body>
+</html>

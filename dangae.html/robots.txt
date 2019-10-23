@@ -1,0 +1,2 @@
+User-agent: *Allow:/
+Sitemap:https://modelhouse1.netlify.com/sitemap.xml
